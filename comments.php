@@ -1,3 +1,4 @@
+<?php
 //Get only the approved comments
 $args = array(
     'status' => 'approve'
