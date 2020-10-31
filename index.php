@@ -1,4 +1,8 @@
 <?php
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', '/tmp/wp-errors.log' );
+define( 'WP_DEBUG_DISPLAY', true );
+
 get_header();
  
 if ( have_posts() ) : 

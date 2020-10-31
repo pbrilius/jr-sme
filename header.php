@@ -23,7 +23,7 @@
 $custom_logo_id = get_theme_mod( 'custom_logo' );
 $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
 if ( has_custom_logo() ) {
-        echo '<img src="' . esc_url( $logo&#91;0&#93; ) . '" alt="' . get_bloginfo( 'name' ) . '">';
+        echo '<img src="' . esc_url( $logo ) . '" alt="' . get_bloginfo( 'name' ) . '">';
 } else {
         echo '<h1>'. get_bloginfo( 'name' ) .'</h1>';
 }
@@ -36,7 +36,7 @@ wp_nav_menu( array( 'theme_location' => 'header-menu' ) );
         <div id="sidebar" class="sidebar">
             <header id="masthead" class="site-header" role="banner">
                 <div class="site-branding">
-                    <?php if ( is_front_page() &amp;&amp; is_home() ) : ?>
+                    <?php if ( is_front_page() && is_home() ) : ?>
                     <h1 class="site-title">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
                     </h1>
