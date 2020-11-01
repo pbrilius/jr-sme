@@ -9,6 +9,7 @@
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
     <![endif]-->
     <?php wp_head(); ?>
+    <?php wp_enqueue_style( 'style', get_stylesheet_uri() ); ?>
 </head>
   
 <body <?php body_class(); ?>>
