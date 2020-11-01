@@ -49,3 +49,7 @@ footer.site-footer {
 .site-info a {
     color: white;
 }
+
+#content.site-content {
+    color: #485462;
+}
