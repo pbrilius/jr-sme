@@ -26,10 +26,26 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .menu ul {
     list-style: none;
+    display: inline;
 }
 
 .menu ul li a {
     text-decoration: none;
     color: #251d71;
     text-transform: uppercase;
+}
+
+footer.site-footer {
+    background-color: #251d71;
+    height: 56px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.site-info {
+    padding-top: 16px;
+}
+
+.site-info a {
+    color: white;
 }
